@@ -1,0 +1,12 @@
+### Send POST request with json body
+POST http://127.0.0.1:3000/campgrounds/62c0b2a032728f1a10436c68/reviews
+Content-Type: application/json
+
+{
+  "review": ["rating"]
+}
+
+###  "review":{
+###    "rating": 0,
+###    "body": "wwddwdwd"
+###  }
